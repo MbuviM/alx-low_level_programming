@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * print_alphabet_x10 -Function that prints the alphabets ten times.
@@ -19,6 +18,7 @@ void print_alphabet_x10(void)
 	putchar('\n');
 	}
 }
+#include "main.h"
 /**
  * main - Start of the program
  * Return: 0 (Success)

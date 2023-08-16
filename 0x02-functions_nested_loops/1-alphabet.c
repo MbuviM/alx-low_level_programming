@@ -2,9 +2,8 @@
 /**
  * main - Entry point of the program
  * Return: Always 0 (Success)
- *void print_alphabet(void) -function that prints the alphabets.
  */
-void print_alphabet(void)
+void print_alphabet(void) /* Function that prints the alphabets*/
 {
 
 	char letter = 97;
@@ -12,6 +11,7 @@ void print_alphabet(void)
 	while (letter >= 97)
 	{
 		putchar(letter);
+		putchar('\n');
 		letter = letter + 1;
 
 	}

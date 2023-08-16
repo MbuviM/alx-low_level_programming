@@ -17,9 +17,9 @@ void print_alphabet_x10(void)
 	putchar('\n');
 	}
 }
-/*
+/**
  * main - Start of the program
- * Return - (0) means Success
+ * Return: 0 (Success)
 */
 int main(void)
 {

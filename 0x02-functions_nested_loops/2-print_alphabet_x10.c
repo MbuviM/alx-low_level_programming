@@ -5,8 +5,9 @@
 void print_alphabet_x10(void)
 {
 	char alpha = 97;
+	int num;
 
-	for (int num = 0; num < 10; num++)
+	for (num = 0; num < 10; num++)
 	{
 		while (alpha >= 97 && alpha <= 122)
 		{
@@ -21,6 +22,7 @@ void print_alphabet_x10(void)
  * main - Start of the program
  * Return: 0 (Success)
 */
+void print_alphabet_x10(void);
 int main(void)
 {
 print_alphabet_x10();

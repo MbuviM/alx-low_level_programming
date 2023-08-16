@@ -5,18 +5,15 @@
 */
 void print_alphabet(void)
 {
-
 	char letter = 97;
 
 	while (letter >= 97)
-	{
-		putchar(letter);
-		putchar('\n');
-		letter = letter + 1;
-
-	}
+        {
+        	putchar(letter);
+        	putchar('\n');
+        	letter = letter + 1;
+        }
 }
-
 /**
  * main - Entry point of the program
  * Return: Always 0 (Success)

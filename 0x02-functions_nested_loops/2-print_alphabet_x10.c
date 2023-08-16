@@ -1,4 +1,16 @@
-#include <stdio.h>
+#include "main.h"
+/**
+ * main - Start of the program
+ * Return: 0 (Success)
+*/
+void print_alphabet_x10(void);
+
+int main(void)
+{
+	print_alphabet_x10();
+	return (0);
+}
+
 /**
  * print_alphabet_x10 -Function that prints the alphabets ten times.
 */
@@ -17,14 +29,4 @@ void print_alphabet_x10(void)
 		alpha = 97;
 	putchar('\n');
 	}
-}
-/**
- * main - Start of the program
- * Return: 0 (Success)
-*/
-void print_alphabet_x10(void);
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }

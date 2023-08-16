@@ -1,9 +1,9 @@
 # include <stdio.h>
+
 /**
- * main - Entry point of the program
- * Return: Always 0 (Success)
- */
-void print_alphabet(void) /* Function that prints the alphabets*/
+ * print_alphabet - Function that prints the alphabets
+*/
+void print_alphabet(void)
 {
 
 	char letter = 97;
@@ -16,6 +16,11 @@ void print_alphabet(void) /* Function that prints the alphabets*/
 
 	}
 }
+
+/**
+ * main - Entry point of the program
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 print_alphabet();

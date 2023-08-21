@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * void swap_int(int *a, int *b)- Function that swaps two values.
- * @a - Pointer variable
- * @b - Pointer variable
- * @temp - Temporaray variable
+ * swap_int - Function that swaps two values.
+ * @a: Pointer to an integer (first value)
+ * @b: Pointer to an integer (second value)
  */
+
 void swap_int(int *a, int *b)
-
-	int *temp = *a;
-	*b = *temp = *a;
-
+}
+	int v = *a;
+	*b = *a;
+	*b = v;
+}

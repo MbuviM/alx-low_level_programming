@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdio.h>
 
 /**
  * rev_string - Function that prints the reverse of the string
@@ -18,4 +19,3 @@ void rev_string(char *s)
 		putchar(s[letter]);
 	}
 }
-

@@ -8,10 +8,13 @@
 
 void rev_string(char *s)
 {
-	int len = strlen(s);
+	int len;
+	int letter;
 
-	for (int letter = len - 1; letter >= 0; letter++)
+	len = strlen(s);
+
+	for (letter = len - 1; letter >= 0; letter++)
 	{
-		puts(letter);
+		putchar(s[letter]);
 	}
 }

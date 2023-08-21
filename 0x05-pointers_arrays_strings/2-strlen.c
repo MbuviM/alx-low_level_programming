@@ -4,11 +4,16 @@
 /**
  * _strlen - Function to print the length of a string.
  * @s: Pointer parameter variable.
- * Return: 0 Success.
+ * Return: length of the string.
 */
 
 int _strlen(char *s)
 {
-	putchar(strlen(*s));
-	return (0);
+	length = 0;
+	while (char *s != "/0")
+	{
+		length++;
+		s++;
+	}
+	return (length);
 }

@@ -9,10 +9,12 @@
 
 void print_rev(char *s)
 {
-	int str_length, int w;
+	int str_length;
 
 	str_length = strlen(s);
 	/* For loop to navigate through the string */
+	int w;
+
 	for (w = str_length - 1; w >= 0; w--)
 	{
 		putchar(s[w]); /*Prints the reverse of the string*/

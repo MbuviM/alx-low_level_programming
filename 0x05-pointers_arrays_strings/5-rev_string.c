@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 #include <stdio.h>
 
 /**
@@ -18,4 +17,14 @@ void rev_string(char *s)
 	{
 		putchar(s[letter]);
 	}
+}
+
+int main(void)
+{
+    char s[10] = "My School";
+
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
+    return (0);
 }

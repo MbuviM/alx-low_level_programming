@@ -19,5 +19,6 @@ void puts2(char *str)
 			putchar(str[alpha]);
 		else
 			continue;
+		putchar('\n');
 	}
 }

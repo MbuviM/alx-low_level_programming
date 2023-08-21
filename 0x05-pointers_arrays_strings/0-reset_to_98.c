@@ -3,6 +3,8 @@
 
 void reset_to_98(int *n)
 {
-	int *n; 
-	return(98);
+	int *n;
+        *n = 98;
+	putchar(*n);	
+	return(0);
 }

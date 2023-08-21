@@ -15,7 +15,10 @@ void puts2(char *str)
 	length = strlen(str);
 	for (alpha = 0; alpha <= length; alpha++)
 	{
-		putchar(str[alpha]);
+		if (alpha % 2 == 0)
+			putchar(str[alpha]);
+		else
+			continue;
 	}
 	putchar('\n');
 }

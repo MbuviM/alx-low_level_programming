@@ -13,14 +13,9 @@ void puts_half(char *str)
 	int lenn;
 
 	lenn = strlen(str);
-	for (i = lenn / 2; i >= lenn / 2; lenn++)
-		if (i % 2 == 0)
-		{
-			putchar(str[i]);
-		}
-		else
-		{
-			putchar((lenn - 1) / 2);
-		}
+	for (i =( lenn - 1) / 2; i >= lenn / 2; i++)
+	{
+		putchar(str[i]);
+	}
 	putchar('\n');
 }

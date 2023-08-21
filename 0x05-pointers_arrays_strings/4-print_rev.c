@@ -14,7 +14,8 @@ void print_rev(char *s)
 	/* For loop to navigate through the string */
 	for (int w = str_length - 1; w >= 0; w--)
 	{
-		puts(w); /*Prints the reverse of the string*/
+		putchar(s[w]); /*Prints the reverse of the string*/
 	}
+	putchar('\n');
 }
 

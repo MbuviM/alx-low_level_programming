@@ -18,6 +18,7 @@ char *rot13(char *str)
 			*ptr = rot13[letter];
 		}
 		ptr++;
+		putchar('\n');
 	}
 	return (str);
 }

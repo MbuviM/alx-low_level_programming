@@ -25,6 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 		dest[dest_len + i] = src[i];
 	}
 	dest[dest_len + n] = '\0'; /* Adding the null terminator to dest */
+	putchar('\n');
 	return (dest);
 }
 

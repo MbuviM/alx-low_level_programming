@@ -9,6 +9,7 @@
  * @src: Source
  * @n: variable that shows the number of characters to be added to dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int srcc;

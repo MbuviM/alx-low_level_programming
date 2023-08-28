@@ -23,5 +23,8 @@ void print_diagsums(int *a, int size)
 		/*Elements on the secondary diagonal*/
 		secondaryDiagonalSum += a[i * size + (size - 1 - i)];
 	}
+	/* Print the sums */
+	putchar("Sum of main diagonal: %d\n", mainDiagonalSum);
+	putchar("Sum of secondary diagonal: %d\n", secondaryDiagonalSum);
 }
 

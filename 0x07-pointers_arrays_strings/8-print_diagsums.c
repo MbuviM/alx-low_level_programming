@@ -24,3 +24,4 @@ void print_diagsums(int *a, int size)
 		secondaryDiagonalSum += a[i * size + (size - 1 - i)];
 	}
 }
+

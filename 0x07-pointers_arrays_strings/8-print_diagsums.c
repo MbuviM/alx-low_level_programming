@@ -26,5 +26,5 @@ void print_diagsums(int *a, int size)
 	/* Print the sums */
 	putchar("Sum of main diagonal: %d\n", mainDiagonalSum);
 	putchar("Sum of secondary diagonal: %d\n", secondaryDiagonalSum);
+	putchar('\n');
 }
-

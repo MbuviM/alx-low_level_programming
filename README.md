@@ -1,2 +1,1 @@
-Hello World.c
-Pointers, Strings and Arrays
+Malloc in C
